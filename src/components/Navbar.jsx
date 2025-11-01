@@ -7,6 +7,7 @@ const Navbar = ({ currentPage, setCurrentPage }) => {
 
   const navItems = [
     { id: 'home', label: 'Home' },
+   { id: 'about', label: 'About' },
     { id: 'debate', label: 'Debate Hub' },
     { id: 'science', label: 'Science Corner' },
     { id: 'resources', label: 'Resources' }

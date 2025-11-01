@@ -3,6 +3,7 @@ import { HelpCircle } from 'lucide-react'
 import { Button } from '@/components/ui/button.jsx'
 import Navbar from './components/Navbar.jsx'
 import Home from './components/Home.jsx'
+import About from './components/About.jsx'
 import DebateHub from './components/DebateHub.jsx'
 import ScienceCorner from './components/ScienceCorner.jsx'
 import Resources from './components/Resources.jsx'
@@ -17,7 +18,9 @@ function App() {
     switch (currentPage) {
       case 'home':
         return <Home setCurrentPage={setCurrentPage} />
-      case 'debate':
+      case 'about':
+        return <DebateHub />
+        case 'debate':
         return <DebateHub />
       case 'science':
         return <ScienceCorner />
